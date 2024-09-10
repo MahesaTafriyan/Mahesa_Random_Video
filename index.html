@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Videos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Empat Video Random Mahesa</h1>
+    </header>
+
+    <div id="video-overlay" class="overlay">
+        <span class="close-btn" onclick="closeVideo()">&times;</span>
+        <div id="video-container" class="video-container">
+            <!-- Video will be injected here -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="taskbar">
+            <button onclick="playVideo('video1.mp4')">Video 1</button>
+            <button onclick="playVideo('video2.mp4')">Video 2</button>
+            <button onclick="playVideo('video3.mp4')">Video 3</button>
+            <button onclick="playVideo('video4.mp4')">Video 4</button>
+        </div>
+        <p>Galactic Journey © 2024</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
